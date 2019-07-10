@@ -1,0 +1,6 @@
+Старт проекта Django:
+django-admin.exe startproject MySite .
+
+Запустим веб-сервер из командной строки:
+python manage.py runserver
+
