@@ -1,6 +1,13 @@
 Старт проекта Django:
-django-admin.exe startproject MySite .
+django-admin startproject MySite .
+
+Миграция (Создание "db.sqlite3"):
+python manage.py migrate
 
 Запустим веб-сервер из командной строки:
 python manage.py runserver
+
+Добавить Аппликацию:
+python manage.py startapp MyApp
+
 
